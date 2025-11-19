@@ -1,0 +1,29 @@
+SunoSeek System Architecture
+
+1. User Layer
+   - WhatsApp Voice
+   - IVR Calls (Toll-free)
+
+2. API Gateway
+   - WhatsApp Webhook
+   - IVR Event Handler
+
+3. AI Processing Layer
+   - Whisper ASR for speech-to-text
+   - NLP Intent Classifier
+   - Job Summarizer
+   - Recommendation Engine
+
+4. Backend Services
+   - Job Search API
+   - Employer Verification Engine
+   - Notification Engine
+
+5. Databases
+   - MongoDB (user data)
+   - PostgreSQL (job listings)
+   - Redis (cache)
+
+6. Output Layer
+   - Text + Audio response
+   - Optional call-back from employer/NGO
