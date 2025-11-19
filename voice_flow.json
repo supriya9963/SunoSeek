@@ -1,0 +1,12 @@
+{
+  "start": "User sends voice message",
+  "steps": [
+    "Convert voice to text using Whisper",
+    "Detect intent using NLP",
+    "Match user request with job database",
+    "Summarize job in simple language",
+    "Generate audio response",
+    "Send audio + text back to user"
+  ],
+  "end": "User receives job information via voice"
+}
